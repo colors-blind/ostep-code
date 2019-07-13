@@ -14,7 +14,7 @@ nohup: ignoring input and appending output to 'nohup.out'
 
 ps to see processes
 
-```
+```bash
 lovezx@parrot ~/D/o/intro> ps aux | grep fishcpu
 lovezx   12288  103  0.0   2260   748 pts/3    R    18:56   0:19 ./fishcpu A
 lovezx   12289  102  0.0   2260   748 pts/3    R    18:56   0:19 ./fishcpu B
