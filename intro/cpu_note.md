@@ -25,7 +25,7 @@ lovezx   12339  0.0  0.0   4900   940 pts/3    S+   18:56   0:00 grep --color=au
 
 pkill to kill process
 
-```
+```shell
 lovezx@parrot ~/D/o/intro> pkill  fishcpu
 fish: Job 4, 'nohup ./fishcpu D &' terminated by signal SIGTERM (Polite quit request)
 fish: Job 2, 'nohup ./fishcpu B &' terminated by signal SIGTERM (Polite quit request)
@@ -37,7 +37,7 @@ fish: Job 1, 'nohup ./fishcpu A &' terminated by signal SIGTERM (Polite quit req
 
 pkill -9 kill process
 
-```
+```bash
 lovezx@parrot ~/D/o/intro> pkill -9 fishcpu
 fish: Job 4, 'nohup ./fishcpu D &' terminated by signal SIGKILL (Forced quit)
 fish: Job 3, 'nohup ./fishcpu C &' terminated by signal SIGKILL (Forced quit)
